@@ -26,13 +26,12 @@ public class ContaTerminal {
 
 //expecifica o valor do saldo em conta
 
-        double saldo = 500.00;
+        double saldo = 5000.00;
 
 //Retorna as informações informados pelo usário
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco.\n",nomeCliente, args);
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco. \n",nomeCliente, args);
         System.out.printf("Sua agência é %d, conta %s e seu saldo no valor de %.2f já está disponivel para saque.",numeroAgencia, agencia, saldo);
         scanner.close();
-
     }
 } 
