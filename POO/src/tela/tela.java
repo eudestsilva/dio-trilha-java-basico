@@ -29,9 +29,12 @@ public class tela {
                 equipamento.atualizarPagina();
                 equipamento.adicionarNovaAba();
                 break;
-           
-        }
-
+                     
+            }
+            terminal.close();    
     }
+    
 }
-
+  
+    
+  
