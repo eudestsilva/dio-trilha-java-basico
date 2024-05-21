@@ -11,8 +11,8 @@ public class tela {
         System.out.println("1. Abrir reprodutor");
         System.out.println("2. Abrir telefone");
         System.out.println("3. Abrir navegador");
-        Scanner Terminal = new Scanner(System.in);
-        int option = Terminal.nextInt();
+        Scanner terminal = new Scanner(System.in);
+        int option = terminal.nextInt();
         switch (option) {
             case 1:
                 equipamento.selecionarMusica();
